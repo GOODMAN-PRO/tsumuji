@@ -1,0 +1,3 @@
+# Full-res raws and generated prompt files never enter the repo — web-sized JPEGs only
+production/*/raw/
+production/*/prompts/

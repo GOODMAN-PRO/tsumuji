@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AIBIKI</title>
+<meta name="theme-color" content="#faf8f5" id="tc">
+<link rel="stylesheet" href="assets/site.css">
+<script>try{var t=localStorage.getItem('tsumuji:theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body data-page="read">
+
+<div class="topbar" id="topbar">
+  <a class="btn" href="index.html" aria-label="Back to chapter list" title="All chapters">&#8592;</a>
+  <span class="meta" id="meta">&hellip;</span>
+  <button class="btn" id="modeBtn" aria-label="Toggle reading mode" title="Reading mode">&#8942;</button>
+  <button class="btn" data-theme-toggle aria-label="Toggle dark or light theme" title="Toggle theme">&#9681;</button>
+</div>
+
+<main id="reader">
+  <div class="pages" id="pages"></div>
+  <nav class="chnav" id="chnav" hidden></nav>
+  <p class="note" id="note" hidden></p>
+</main>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
