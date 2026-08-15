@@ -5,7 +5,11 @@ Everything between the BEGIN/END markers is pasted VERBATIM into every single im
 <!-- BEGIN ART SPEC -->
 ART SPEC — this is a MANGA PAGE, not an illustration. Follow every section.
 
-STYLE ANCHOR — the finished page must look like a SCAN OF A PRINTED MODERN HIGH-SCHOOL SLICE-OF-LIFE ROMANCE MANGA VOLUME (2010s-2020s, warm and quiet, not action, not gag): fine clean black ink, LOTS of pure white paper, and only sparing screentone. Light and airy, never heavy. It must NOT look like a digital painting, an anime keyframe, a 3D render, or glossy AI art. Flat print, never rendered light. Every area of the page is one of exactly three things: pure black ink, pure white paper, or a visible dot-screentone texture. If any region reads as smooth continuous grayscale, the page is wrong.
+STYLE ANCHOR — the finished page must look like a SCAN OF A PRINTED MODERN HIGH-SCHOOL ROMANCE MANGA VOLUME in the LIGHT, CLEAN, MINIMAL style: thin delicate ink lines, SIMPLE YOUTHFUL FACES, almost no rendering, and mostly PURE WHITE PAPER. The register is soft, warm, and uncluttered — a gentle school romance, NOT a gritty realistic drama.
+
+**THE SINGLE BIGGEST RISK IS OVER-RENDERING. DRAW LESS.** This style is defined by what is left OUT. Aim for the fewest lines that carry the drawing. A page that looks detailed, textured, gritty, painstaking or "realistic" is WRONG even if it is beautiful. Specifically FORBIDDEN: crosshatching of any kind; texture rendering of wood grain, floorboards, brick, tile, fabric weave, or concrete; stippling; feathered or tapered shading strokes; heavy line weights; detailed folds; rendered muscle or bone structure; dense background linework. If you catch yourself adding lines to make something look real, STOP — this style removes them.
+
+It must NOT look like a digital painting, an anime keyframe, a 3D render, or glossy AI art. Flat print, never rendered light. Every area of the page is one of exactly three things: pure black ink, pure white paper, or a flat dot-screentone shape. If any region reads as smooth continuous grayscale, the page is wrong.
 
 FIGURE PROPORTIONS — THE MOST IMPORTANT RULE ON THIS PAGE. The house look is TALL, SLENDER AND LIGHT:
 - Draw teenage characters at roughly 7.5 to 8 HEADS TALL. The head is SMALL relative to the body.
@@ -27,29 +31,34 @@ DENSITY — the script's dialogue is the point of the page:
 - Bubbles are distributed across panels; busy panels carry 2-3 bubbles. Bubbles may overlap panel borders — that is correct manga texture.
 - This is a quiet, talky, character-first manga: the finished page reads as conversation first, pictures second.
 
-FACES — people are the subject:
+FACES — people are the subject, and they are drawn SIMPLY:
 - A human face appears in nearly every panel. At most ONE panel per page may be without a person (an insert of hands, scissors, a comb, a door). Never draw a page of objects or scenery.
 - Faces are large in frame: conversation shots crop at chest or closer. Expressions do the acting, and they are SUBTLE — a lowered lash line, a small mouth, a glance away. Big loud expressions are rare and land hard.
-- Face construction: soft rounded jaw into a small pointed chin, small simple nose (often a single short stroke or a dot), small mouth. Never heavy or angular faces.
+- **FACE CONSTRUCTION — YOUTHFUL AND MINIMAL. These characters are SEVENTEEN and must look it.** Soft rounded jaw curving into a small chin. **The NOSE is a single short stroke or a small dot — NEVER draw nostrils, a nose bridge, or a shaded nose.** The MOUTH is one small simple line. **NO lip definition, NO cheekbone lines, NO jaw shading, NO neck tendons, NO philtrum, NO under-eye bags, NO laugh lines** (age on the two elderly characters is a few fine creases ONLY, per their locks).
+- **A face is roughly: two eyes, two brows, one nose stroke, one mouth line, and the hair. That is all.** Anything beyond that is over-rendering. Adult faces get the same treatment, only longer.
 
-WHITE SPACE — roughly HALF the page reads as white:
-- The DEFAULT background inside a panel is PURE WHITE PAPER. Characters float on white; that is the house look.
-- A drawn environment (room, shop, street, furniture) may appear in AT MOST 1-2 panels per page — only where the script's description names the location. Every other panel: white, or a very sparse tone/pattern accent. If in doubt, leave it white.
+WHITE SPACE — MORE THAN HALF the page reads as white:
+- The DEFAULT background inside a panel is PURE WHITE PAPER, with NOTHING in it. Characters float on white; that is the house look and it should be the majority of panels on every page.
+- **A drawn environment may appear in AT MOST ONE panel per page** — the establishing panel the script names — and even there it is drawn with the FEWEST POSSIBLE LINES: a floor line, a doorway, the silhouette of a chair. **Never draw floorboard seams, wall texture, tile grids, ceiling panels, window mullions, brickwork, or grain of any kind.** Suggest the room; do not build it.
+- Every other panel: pure white behind the figures, or at most one simple prop drawn in outline.
 - NEVER achieve white space with fewer panels, fewer bubbles, or empty panels — only with emptier backgrounds.
 
 LINE:
-- FINE, clean, even-weight black ink line — light and confident, thin. Slightly thicker on figure outlines, very fine for hair, folds and details. No sketchiness, no crosshatch rendering, no painterly shading, no heavy brush weight.
+- THIN, clean, even-weight black ink line — light, delicate and confident. Slightly thicker on figure outlines only. No sketchiness, no crosshatch rendering, no painterly shading, no heavy brush weight, no tapered "drybrush" strokes.
+- **CLOTHING gets the MINIMUM fold lines that read — two or three per garment, at the elbow, the waist and the hem. Never render drapery. A shirt is an outline and three lines.**
 - FLATNESS LAW: faces, skin, hair, clothes and objects are FLAT — outline plus flat fill plus at most one screentone shadow shape. No gradient shading on skin, no soft light on hair, no rendered fabric folds, no ambient occlusion, no depth-of-field blur, no photographic lighting of any kind. Simple beats detailed everywhere.
 
-EYES:
-- Large, clean, gently rounded eyes with a fine dark upper lash line, delicate individual lashes at the outer corner, a crisp white highlight and a soft lower lid. Irises are drawn with a clean flat tone or fine vertical striations, never airbrushed.
+EYES — the one feature that carries the face, so they are LARGE and CLEAN:
+- Large, gently rounded eyes, noticeably bigger than realistic proportion. A fine dark upper lash line thickening slightly at the outer corner, two or three delicate lashes, a crisp white highlight, a soft lower lid. Irises are a clean flat tone or a few fine vertical striations — never airbrushed, never heavily detailed.
+- Eyebrows are thin simple arcs. Eyelids get one line at most.
 - Blush is 2-4 short diagonal hatch strokes on the cheek. A comic sweat drop beside the temple is allowed. Emotion marks are used SPARINGLY — this series is quiet.
 
 HAIR:
 - Hair reads as a clear SILHOUETTE with FINE STRAND LINES inside it: flat black fill, flat screentone gray, or left white — with a simple clean white shine band. Individual strands are drawn with fine tapered lines at the edges so hair looks soft, not solid. Each character's hair silhouette must match their CHARACTER LOCK exactly, every panel, every page.
 
-TONE — USE IT SPARINGLY:
-- Halftone dot screentone ONLY for: a character's hair value, a single flat shadow shape, uniform fabric, and occasional mood (soft dot gradient, sparkle tone, a few vertical gloom lines). Large areas of the page stay WHITE.
+TONE — USE IT VERY SPARINGLY:
+- Halftone dot screentone ONLY for: a character's hair value, uniform fabric, and at most ONE OR TWO flat shadow shapes on the entire page. Nothing else gets tone. Large areas of every page stay WHITE.
+- **Never tone a background, a floor, a wall, or a sky.** If a panel's background needs anything at all it gets pure white.
 - Blacks are FLAT solid black. No gray airbrush, no soft digital gradients, no 3D-render shading. Mid-tones are visible DOTS, never smooth gray.
 
 CHIBI:
@@ -70,6 +79,8 @@ SIGNAGE LAW — NEVER INVENT LETTERING:
 BANNED — never do any of these:
 - Color. (Black, white, and screentone gray only.)
 - STUBBY, squat, stocky, wide-shouldered or short-limbed figures. See FIGURE PROPORTIONS.
+- **OVER-RENDERING — the primary failure mode of this series.** No crosshatching. No stippling. No texture on wood, floorboards, brick, tile, concrete, fabric weave, or hair beyond simple strand lines. No rendered drapery or heavy fold work. No detailed noses, nostrils, lips, cheekbones, or jaw shading. No gritty or photorealistic "seinen drama" finish. If the page looks laborious, it is wrong.
+- **BUSY BACKGROUNDS.** More than one drawn environment panel per page, or any toned/textured background, is a defect.
 - Photorealism, painterly rendering, soft airbrushed grayscale, 3D-render look, AI-gloss.
 - Digital-painting or anime-keyframe rendering: gradient-shaded skin or hair, glossy highlights, rendered lighting, smooth gray shading anywhere.
 - Heavy, dark, tone-saturated pages. This series is light; large white areas are mandatory.
