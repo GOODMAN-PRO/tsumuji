@@ -1,131 +1,114 @@
 # ART SPEC
 
-Everything between the BEGIN/END markers is pasted VERBATIM into every single image call — pages, calibration pages, and (with the noted cover overrides) covers. Never abbreviate it, never summarize it, never "the usual spec".
+Everything between the BEGIN/END markers is pasted verbatim into every page-generation call.
+This is an editorial drawing brief, not a request for a polished illustration.
 
 <!-- BEGIN ART SPEC -->
-ART SPEC — this is a MANGA PAGE, not an illustration. Follow every section.
+ART SPEC — DRAW ONE FINISHED BLACK-AND-WHITE PRINTED MANGA PAGE.
 
-STYLE ANCHOR — the finished page must look like a SCAN OF A PRINTED MODERN HIGH-SCHOOL ROMANCE MANGA VOLUME: thin delicate ink lines, SIMPLE YOUTHFUL FACES, crisp flat screentone, lively hand lettering, and dense conversational page rhythm. The register is soft and warm, but the PAGE is busy with human reactions, short dialogue chains, mutters, SFX, cropped faces, and changing camera distance. It is clean manga cartooning, NOT a gritty realistic drama and NOT a sparse character sheet.
+PRIORITY ORDER:
+1. Story timing and readable panel flow.
+2. Every scripted word, in the correct reading order.
+3. Character identity through silhouette, clothing, and props.
+4. Expressive hand-drawn ink and screentone.
+5. Anatomical polish LAST.
 
-**THE TWO BIGGEST RISKS ARE OVER-RENDERING AND STERILE UNDER-DRAWING.** Draw faces and bodies with very few lines, but construct a complete manga page around them. A page that looks gritty, painstaking or realistic is wrong; a page made of six large figures floating in six empty white boxes is equally wrong. Specifically FORBIDDEN: crosshatching used as modelled shading; texture rendering of wood grain, every floorboard, brick, fabric weave, or concrete; stippling; feathered shading strokes; heavy line weights; detailed folds; rendered muscle or bone structure; dense architectural linework. Allowed and expected: selective room fragments, cropped props, flat dot-tone fields, speed/focus lines, black emotion fields, and graphic SFX. Simplify reality; do not erase the world.
+The page must feel drawn by a working manga artist against a deadline, not rendered by an image model trying to make every panel beautiful. A useful awkward panel is better than a polished empty one.
 
-It must NOT look like a digital painting, an anime keyframe, a 3D render, or glossy AI art. Flat print, never rendered light. Every area of the page is one of exactly three things: pure black ink, pure white paper, or a flat dot-screentone shape. If any region reads as smooth continuous grayscale, the page is wrong.
+PRINT OBJECT:
+- Portrait 1024x1536. Pure black ink, pure white paper, and visible halftone dots only.
+- No color, smooth grayscale, airbrush, gradients, digital-paint lighting, depth blur, glow, or glossy anime finish.
+- Blacks may be blunt and heavy. Screentone edges may be visibly cut. White-out gaps, broken contours, and slight ink irregularity are welcome when controlled.
+- Do not add fake aging, paper stains, scan shadows, watermarks, signatures, page numbers, or margin notes.
 
-FIGURE PROPORTIONS — THE MOST IMPORTANT RULE ON THIS PAGE. The house look is TALL, SLENDER AND LIGHT:
-- Draw teenage characters at roughly 7.5 to 8 HEADS TALL. The head is SMALL relative to the body.
-- Long slim neck. NARROW, gently sloping shoulders — never wide, never square, never blocky.
-- Long, slim arms and legs. The legs from hip to floor are slightly MORE than half of total height. Slim waist and hips, flat slim torso that tapers gently.
-- Delicate hands with long fingers. Fine wrists and ankles. Long clean jawline into a small chin.
-- This holds in EVERY panel, every pose, seated, in loose clothing, in a coat, from any angle.
-- NEVER draw a compact, square, stocky, chunky, squat or "sturdy" figure. NEVER draw a torso as a block. NEVER shorten the limbs relative to the torso. If any figure reads as stubby, short-limbed, or heavy-shouldered, THE PAGE IS WRONG and must be redrawn.
-- Height differences between characters are modest — a head at most. Nobody is a giant and nobody is a child (except characters the script explicitly says are children).
+PAGE EDITING — PANELS ARE STORY CUTS, NOT MINI POSTERS:
+- Follow the PAGE SCRIPT's exact panel count and order. A splash is one panel; every other page is genuinely divided.
+- Build an asymmetrical manga page: unequal rows, narrow reaction cuts, partial-height panels, small insets, occasional borderless inserts, and varied gutters.
+- Never use six equal rectangles, repeated full-width strips, or a tidy storyboard worksheet.
+- Only ONE panel on a normal page may look like a polished hero illustration. The others should be functional cuts: an awkward crop, the back of a head, half a face, hands, a mouth, a shoulder, a tiny figure in space, a prop, or a deliberately crude reaction.
+- Change camera distance sharply. Use extreme close-ups beside long shots. Do not repeat eye-level waist-up two-shots.
+- Crop aggressively. In at least half the panels, do not show a complete head-and-torso composition. Cut through hair, chin, elbow, shoulder, cape, or body at the panel edge.
+- Do not center every subject. Faces may press against an edge; empty space may sit on the emotionally meaningful side.
+- A character or balloon may break a border. Borders may stop behind a figure or SFX.
 
-PAGE CONSTRUCTION — DO THIS FIRST:
-- Divide the sheet into separate rectangular panels with fine solid black borders and clean white gutters between them. The exact panel count and contents come from the PAGE SCRIPT below — draw every panel it lists, in order.
-- The page is a grid of separate camera shots reading LEFT-TO-RIGHT, TOP-TO-BOTTOM. It is never one continuous illustration. (Exception: a page explicitly marked SPLASH is a single full-bleed panel — and it still carries all its speech bubbles.)
-- Vary panel sizes aggressively: one dominant panel, two or three small reaction cuts, and the rest medium. Adjacent panels must change camera angle, distance, or subject — every panel is a cut.
-- Use an ASYMMETRICAL MANGA COMPOSITION: staggered rows, narrow reaction panels, small inset panels, partial-height borders, figures and balloons crossing gutters. Do not arrange six equal boxes or six full-width horizontal strips. A neat worksheet grid is an AI failure.
-- Default page anatomy: 7 panels. 8 is common when dialogue accelerates; 6 is a quiet page; 5 is the rare floor; 9 is allowed for reaction insets. Follow the PAGE SCRIPT's exact count.
-- Gutters vary from hairline-tight in quick exchanges to wide only around an emotional pause. Uniform generous gutters make the page look like a storyboard, not manga.
+THE ANTI-AI INK LAW:
+- Contours are drawn with 2-3 perceptible line weights. Pressure changes inside a stroke. Some lines begin bluntly, taper, break, or overlap another line by a millimetre.
+- Do not use perfectly smooth vector contours, identical line weight around every object, or mathematically clean ellipses.
+- Hair is a designed black/white mass first, then a limited number of purposeful strands. Do not render every strand with equal care.
+- Clothing is allowed to bunch, kink, and simplify. Use a few decisive folds; do not simulate fabric or drape it with 3D accuracy.
+- Chrome chairs, mirrors, scissors, tills, and appliances are simplified symbols with selective blacks. No ray-traced reflections, perfect manufactured symmetry, CAD construction, or product-render highlights.
+- Background perspective may be accurate in the establishing panel, then disappear. Do not prove the room from every angle.
 
-DENSITY — the script's dialogue is the point of the page:
-- Render EVERY speech bubble, thought bubble, aside, caption, and SFX written in the PAGE SCRIPT. Never drop, merge, or shorten a bubble. A page rendered with zero bubbles is a failed page.
-- A normal page carries roughly **11-15 speech/thought balloons plus 3-5 unbubbled mutters and 2-5 drawn SFX**. Together they make **16-22 readable text beats**. The PAGE SCRIPT gives the exact count; reproduce all of it.
-- Bubbles are distributed across panels; busy panels carry 2-4 bubbles in a staggered chain. Short interruptions and replies get their own balloons instead of being merged. Bubbles overlap panel borders and sometimes each other — that is correct manga texture.
-- Before drawing, make a balloon map in reading order. Reserve roughly one quarter of the live page area for lettering. Pictures are composed around the balloons; balloons are never pasted into leftover corners.
-- This is a quiet, talky, character-first manga: the finished page reads as conversation first, pictures second.
+CHARACTER CONTINUITY — IDENTITY, NOT MODEL-SHEET RIGIDITY:
+- The CHARACTER LOCKS bind silhouette, hair value, outfit, state switch, signature props, and important story tells.
+- Listed head-count proportions describe neutral full-body shots only. Do NOT measure or enforce them in every panel.
+- Normal figures remain youthful and generally slim, but foreshortening, crouching, slouching, cropped limbs, a larger reaction head, and deliberately compressed comedy anatomy are correct manga.
+- Faces may go slightly off-model while acting. Feature spacing, jaw length, and eye size can shift between a deadpan panel, an embarrassed panel, and a chibi panel. That shift is human cartooning, not continuity failure.
+- Preserve recognizability through hair silhouette, black/gray value, clothes, and props—not through tracing the same ideal face repeatedly.
+- Do not mirror a face into perfect bilateral symmetry. Perspective makes the far eye smaller and less detailed. Hands may be simplified unless the script makes the hand the subject.
 
-FACES — people are the subject, and they are drawn SIMPLY:
-- A human face appears in nearly every panel. At most ONE panel per page may be without a person (an insert of hands, scissors, a comb, a door). Never draw a page of objects or scenery.
-- Faces are large in frame: conversation shots crop at chest or closer. Expressions do the acting, and they are SUBTLE — a lowered lash line, a small mouth, a glance away. Big loud expressions are rare and land hard.
-- **FACE CONSTRUCTION — YOUTHFUL AND MINIMAL. These characters are SEVENTEEN and must look it.** Soft rounded jaw curving into a small chin. **The NOSE is a single short stroke or a small dot — NEVER draw nostrils, a nose bridge, or a shaded nose.** The MOUTH is one small simple line. **NO lip definition, NO cheekbone lines, NO jaw shading, NO neck tendons, NO philtrum, NO under-eye bags, NO laugh lines** (age on the two elderly characters is a few fine creases ONLY, per their locks).
-- **A face is roughly: two eyes, two brows, one nose stroke, one mouth line, and the hair. That is all.** Anything beyond that is over-rendering. Adult faces get the same treatment, only longer.
+FACES — ALLOW UNATTRACTIVE MOMENTS:
+- A normal face is economical: upper lashes, iris, one nose mark, one mouth line, jaw. Do not model nostrils, lips, cheekbones, or skin volume.
+- The cast must NOT wear the same calm, symmetrical, pretty expression in every panel.
+- Use plain transitional faces, eyes looking the wrong way, half-closed lids, crooked mouths, compressed cheeks, sweat, ugly surprise, and flattened chibi reactions where the beat calls for them.
+- A reaction can drop most facial detail: dot eyes, white circle eyes, black bar eyes, one giant mouth, missing nose, or a head reduced to silhouette.
+- Reserve the most carefully drawn eyes and cleanest face for the page's emotional focal panel. If every face is equally finished, the page has failed.
+- Elderly characters must remain unmistakably old, but age comes from a few decisive lid, mouth, hand, neck, and hairline marks—not realistic skin rendering.
 
-WHITE SPACE — CONTROLLED, NOT EMPTY:
-- Roughly **35-50%** of the page may read as white paper. White is an active contrast field around faces and lettering, not an excuse to omit setting, reactions, or tone.
-- Give **2-4 panels per normal page** a purposeful background treatment: one clear environment panel; one or two cropped room fragments or props; and/or one graphic emotion field made of speed lines, focus lines, flat black, or visible dot screentone.
-- Suggest the shop with selective recurring anchors — mirror edge, chair chrome, towel cabinet, counter, stair rail, window, floor drift — rather than redrawing the entire room. Do not render every floorboard, tile, brick, mullion, or surface grain.
-- No more than TWO consecutive panels may float on untouched white. Alternate white face shots with context, prop inserts, tone fields, or graphic reaction panels.
-- NEVER achieve breathing room with fewer panels, fewer bubbles, or empty panels. Breathing room comes from simple linework and controlled contrast inside a fully constructed page.
+BLACK, WHITE, SCREENTONE — VARY PAGE TO PAGE:
+- Use visible dot screentone, flat black, white, speed lines, focus lines, and dry graphic marks as compositional values.
+- Do not target the same white percentage on every page. One page may be bright; the next may carry a dark tone field. The chapter needs contrast.
+- Tone may sit behind a face as emotion rather than physical lighting. Black fields and radiating lines are legitimate manga space.
+- Establish a location once with enough concrete detail to orient the reader. Later panels use only cropped anchors: mirror edge, chair arm, stair rail, towel cabinet, window, floor hair, counter.
+- Do not repeat a complete barbershop interior. Do not render every tile, floor seam, shelf item, ceiling panel, or reflection.
+- Also avoid the opposite failure: characters floating in a featureless white showroom for an entire page. Use room fragments, tone, blacks, or graphic effects where the cut needs grounding.
+- Chapter 1 page 23 is the house QA comparator for density, emotional register, uneven finish, and balloon variety. Do not attach it—or any prior story page—as a visual reference for a different page: scene-content leakage is a redraw. Compare editorially after generation instead.
 
-LINE:
-- THIN, clean, even-weight black ink line — light, delicate and confident. Slightly thicker on figure outlines only. No sketchiness, no crosshatch rendering, no painterly shading, no heavy brush weight, no tapered "drybrush" strokes.
-- **CLOTHING gets the MINIMUM fold lines that read — two or three per garment, at the elbow, the waist and the hem. Never render drapery. A shirt is an outline and three lines.**
-- FLATNESS LAW: faces, skin, hair, clothes and objects are FLAT — outline plus flat fill plus at most one screentone shadow shape. No gradient shading on skin, no soft light on hair, no rendered fabric folds, no ambient occlusion, no depth-of-field blur, no photographic lighting of any kind. Simple beats detailed everywhere.
+DIALOGUE DENSITY — LETTERING IS PART OF THE DRAWING:
+- Render EVERY scripted speech balloon, thought balloon, aside, caption, and SFX. Never merge, paraphrase, reorder, or omit text.
+- Obey the COUNT LOCK exactly. Plan the balloon map before drawing the figures.
+- Compose heads, hands, and bodies around the balloon path. Do not paste text into leftover corners after drawing.
+- Busy panels may carry 2-4 short balloons in a staggered chain. Balloons may overlap a shoulder, background, border, or each other.
+- Keep all text large enough to read at normal phone width. Use short stacked lines.
 
-EYES — the one feature that carries the face, so they are LARGE and CLEAN:
-- Large, gently rounded eyes, noticeably bigger than realistic proportion. A fine dark upper lash line thickening slightly at the outer corner, two or three delicate lashes, a crisp white highlight, a soft lower lid. Irises are a clean flat tone or a few fine vertical striations — never airbrushed, never heavily detailed.
-- Eyebrows are thin simple arcs. Eyelids get one line at most.
-- Blush is 2-4 short diagonal hatch strokes on the cheek. A comic sweat drop beside the temple is allowed. Emotion marks are used SPARINGLY — this series is quiet.
+HAND-DRAWN BALLOONS AND LETTERING:
+- Balloon outlines must look inked by hand: subtly uneven curves, non-identical corners, slight wobble, and natural asymmetry. Never use perfect vector circles, capsules, or software-default rounded rectangles.
+- Normal speech: irregular oval. Formal/deadpan speech: hand-drawn squared balloon. Shout: violent spiky burst with heavy larger letters. Thought: irregular scalloped cloud. Mutter: bare small text or a broken whisper outline. Interruption: torn/open edge. Weak voice: thin wavering outline.
+- Tails are individually drawn and vary in length, angle, width, and curve. Do not reuse the same triangular tail.
+- Text should resemble confident hand lettering, not a clean installed comic font: small baseline shifts, varying width, controlled changes of weight, and occasional squeezed letters. It must remain legible.
+- Bold only the stressed words. Shouts change both balloon shape and letter scale.
+- A page of identical ovals, identical rectangles, or identical text size is a redraw.
 
-HAIR:
-- Hair reads as a clear SILHOUETTE with FINE STRAND LINES inside it: flat black fill, flat screentone gray, or left white — with a simple clean white shine band. Individual strands are drawn with fine tapered lines at the edges so hair looks soft, not solid. Each character's hair silhouette must match their CHARACTER LOCK exactly, every panel, every page.
+SFX AND REACTION GRAPHICS:
+- SFX are hand-lettered romaji integrated into the art, with the small English translation in parentheses. Never print the labels `SFX:`, `CAPTION:`, `PANEL`, speaker names, quotation marks, or any script markup.
+- Give sounds different physical behavior: scissors may sit close to the blade; a bell can hang down the panel; a crash can cross a gutter; a breath can nearly disappear.
+- Use manga punctuation when earned: `?!`, `!!`, sweat drop, anger vein, blush hatching, motion ticks, speed lines, focus lines, black shock field, tiny chibi insert.
+- Do not force the same reaction device or giant SFX onto every page. Repetition by checklist feels generated.
 
-TONE — PRINTED MANGA RHYTHM, NEVER SMOOTH GRAY:
-- Halftone dot screentone is used for hair values, uniform fabric, **2-4 flat background/effect shapes**, and the occasional cropped room shadow. Aim for visible print dots across roughly 15-30% of a normal page.
-- A background may be a single flat tone field, a black field, or a sparse speed/focus-line field when it carries emotion. Never model a whole room with gradients or textured gray.
-- Blacks are FLAT solid black. No gray airbrush, no soft digital gradients, no 3D-render shading. Mid-tones are visible DOTS, never smooth gray.
+SIGNAGE AND EXACT TEXT:
+- Any sign, poster, shopfront, notice, packet, book, phone screen, clock, or printed page may carry ONLY wording explicitly supplied by the PAGE SCRIPT.
+- If wording is not supplied, turn it away, crop it, reduce it to illegible marks, or cover it. Never invent names or logos.
+- The cram-school poster is printed matter in a coarser dot screen, cropped/occluded, never a clean extra character portrait, and never lettered.
 
-CHIBI:
-- Panels tagged [CHIBI] in the script draw the characters as tiny simplified versions: oversized round head, dot or line eyes, no nose, simplified body, simplified hair silhouette that still matches their lock. Chibi panels land mid-conversation as small comedy beats and keep their bubbles. (Chibi is the ONE exemption from the proportions law.)
+FINAL HUMAN-PAGE AUDIT — REDRAW IF ANY ANSWER IS YES:
+- Do most panels look like polished standalone illustrations?
+- Are faces uniformly symmetrical, attractive, calm, and equally finished?
+- Are bodies posed like mannequins facing the camera?
+- Are balloons perfect software shapes with one repeated font treatment?
+- Is the room rendered like a consistent 3D set from every angle?
+- Are chrome, hair, eyes, or cloth glossy and computationally smooth?
+- Is every line the same weight and every contour unbroken?
+- Are all gutters, panels, camera distances, or figure scales regular?
+- Does the page look cleaner and more consistent than a weekly printed manga page? If so, roughen the editorial drawing, not by adding noise, but by making bolder choices and leaving unimportant things unfinished.
 
-LETTERING — **BUBBLE SHAPE AND TEXT SIZE CARRY THE EMOTION. THIS IS AS IMPORTANT AS THE DRAWING.**
-
-**THE ENFORCEMENT RULE: a page where every bubble is the same shape, the same size, and the same weight is a FAILED PAGE.** Real manga lettering is loud in places and almost invisible in others, and the reader hears volume from the shape alone before reading a word. Vary it on every single page.
-
-Every normal page must show **at least three distinct lettering treatments** from the vocabulary below. Every conversation page must include at least one staggered **two- or three-balloon chain** whose shapes and sizes change with the speaker's rhythm. A quiet page can use oval + rectangle + bare mutter; it does not need a false shout.
-
-The vocabulary — pick the form from the FEELING, not from habit:
-- **Normal speech** → clean oval or rounded bubble, thin outline, medium text.
-- **SHOUTING / urgency / alarm** → **SPIKY BURST bubble** with jagged points, and the text inside is **MUCH BIGGER AND BOLDER** — two or three times the size of calm dialogue, often stacked in short thick lines. A shout must be legible as a shout with the page held at arm's length.
-- **Flat, formal, deadpan, or stating a fact** → a **RECTANGULAR / squared-off bubble** with corners. (This is Tōma's public register bubble — use it.)
-- **Muttering, half-heard, embarrassed, trailing off** → **NO OUTLINE AT ALL**: small text floating bare beside the head; or a **small broken/dashed outline**. Tiny text. This is the series' most-used quiet form.
-- **Thoughts** → cloud-scalloped edge, softer text.
-- **Interrupted or cut off** → a bubble with one edge left open or ragged.
-- **Whisper / weak voice** → thin wobbly outline, small light text.
-- **TAILS vary**: a long whipping tail thrown across the panel for a shout from off-panel; a tiny nub for a quiet line; no tail at all when the speaker is obvious.
-- **Bold individual words** inside a bubble for stress. Not every word — one or two.
-- Bubbles **overlap panel borders and each other**; a bubble may sit half outside its panel. That is correct manga texture, not a mistake.
-- Balloons may crop a shoulder, cover background detail, or bridge two adjacent reaction shots. They help CREATE the layout and reading path.
-- Text is horizontal UPPERCASE English, centred, broken into short stacked lines of 1-4 words; hyphenate rather than shrink.
-- Captions: small rectangular boxes, upper corner of a panel, uppercase.
-
-EXPRESSION, REACTION AND CARTOONING — the page must have COMIC LIFE in it:
-- Use **1-3 purposeful manga grammar devices per normal page**: a drawn **"?!"** or **"!?"** graphic; sweat drop; popped anger vein; blush hatching; breath puff; hand-motion ticks; speed/focus lines; simplified reaction face. Do not apply the same device to every page.
-- **REACTION FACES**: when a character is startled, mortified, exasperated or caught out, drop that panel to a **SIMPLIFIED CARTOON FACE** — dot or line eyes, a huge open mouth, simplified hair shape — even inside an otherwise quiet scene. Snapping between a delicate face and a cartoon face is the register of this genre.
-- **SPEED LINES and focus lines** behind sudden movement or a shock beat. A dark toned panel with radiating focus lines is legal for one dramatic beat.
-- **Characters may break the panel border** — a hand, a shoulder, a lock of hair, a scissor blade crossing the gutter into the next panel.
-- These devices are punctuation. Let calm panels stay calm, then make the change of register obvious.
-
-SFX — DRAWN, NOT TYPED:
-- Sound effects are **hand-lettered romaji drawn INTO the artwork**, with a tiny English translation in parentheses tucked under or beside them — e.g. JOKI (snip), GARA (rattle), KACHA (clink).
-- **Vary them wildly in size and treatment.** On most normal pages, one SFX is a major graphic element that overlaps a figure, border, or gutter; on intimate pages all SFX may stay small. Others are tucked into the drawing. Rough scratchy letterforms for harsh sounds; soft rounded letterforms for gentle ones; long trailing letters for continuous sounds.
-- Small domestic sounds are this series' staple, but they still get real hand-lettered presence — never a neat typeset label sitting politely in a corner.
-- **NEVER print the script's markup.** The letters "SFX", a colon, and quotation marks must NEVER appear on the page. The script line `- SFX: SHAKI (snip)` is lettered on the page as **SHAKI (snip)** and nothing else. The same applies to every other script prefix — CAPTION, PANEL, and character-name labels are instructions to you, never text to draw.
-
-SIGNAGE LAW — NEVER INVENT LETTERING:
-- Any sign, poster, shopfront, notice, packet, book, phone screen or printed page may ONLY carry text the PAGE SCRIPT explicitly supplies. If the script gives no wording, draw the object with its lettering illegible — turned away, blurred, edge-on, or cropped — never a name you made up.
-
-BANNED — never do any of these:
-- Color. (Black, white, and screentone gray only.)
-- STUBBY, squat, stocky, wide-shouldered or short-limbed figures. See FIGURE PROPORTIONS.
-- **OVER-RENDERING — the primary failure mode of this series.** No crosshatching. No stippling. No texture on wood, floorboards, brick, tile, concrete, fabric weave, or hair beyond simple strand lines. No rendered drapery or heavy fold work. No detailed noses, nostrils, lips, cheekbones, or jaw shading. No gritty or photorealistic "seinen drama" finish. If the page looks laborious, it is wrong.
-- **STERILE UNDER-DRAWING.** Six large empty white boxes, figures floating without room anchors, or more than two consecutive untouched-white panels. This is as serious a defect as over-rendering.
-- **UNIFORM LETTERING.** Every bubble the same oval, the same size, the same weight — no shouts, no unbubbled mutters, no size contrast. This is a defect and the page must be redrawn. See LETTERING.
-- **DEAD PAGES.** No emotion marks, no reaction faces, no varied SFX, nothing crossing a panel border. The page must have comic life in it.
-- Photorealism, painterly rendering, soft airbrushed grayscale, 3D-render look, AI-gloss.
-- Digital-painting or anime-keyframe rendering: gradient-shaded skin or hair, glossy highlights, rendered lighting, smooth gray shading anywhere.
-- Heavy, dark, tone-saturated pages. This series is light; white remains the largest single value.
-- Fully rendered environments in every panel. Use selective environment fragments and graphic fields instead.
-- A single-illustration page when the script lists multiple panels.
-- A page, or more than one panel, with no people in it.
-- A page with zero speech bubbles, or fewer bubbles than the script lists.
-- Japanese/CJK glyphs anywhere — all lettering is uppercase English / romaji.
-- Watermarks, signatures, page numbers, margin text, logos.
-- Characters, costumes, hairstyles, or logos copied from any existing manga/anime.
-- Panel compositions, poses, dialogue, lettering, or character designs traced or copied from a reference page. Learn only the general manga grammar: density, interruption, scale contrast, and emotional lettering.
+BANNED:
+- Color; gradients; airbrush; painterly grayscale; anime screenshot finish; 3D render; photorealism; AI gloss.
+- Vector-clean outlines, perfect manufactured geometry, perfectly mirrored faces, identical eyes, repeated beauty-shot framing.
+- Full environment detail in every panel; CAD-like barbershop chairs; complete accurate mirror reflections in every shot.
+- Tracing or copying any existing manga panel, character, pose, composition, lettering, logo, or artist's distinctive design. Use only general printed-manga grammar.
+- Japanese/CJK glyphs; watermarks; signatures; page numbers; invented signage; missing scripted text.
 <!-- END ART SPEC -->
 
-## Cover override (append after the spec for cover calls only)
+## Cover override
 
-COVER OVERRIDE: This call is a chapter COVER, not a story page. One single full-bleed composition, portrait: a single BARBER'S CHAIR — a real barbershop chair with a padded back, chrome arms and a footrest — center-frame, drawn full height and slightly angled. The two leads are positioned relative to that chair exactly as the COVER NOTES direct (default: he is seated in it with a white cutting cape across his shoulders, she stands behind it with one hand on the chair back and comb-and-scissors in the other, both facing the reader as if into the shop mirror). THE DISTANCE AND CONTACT between the two figures is the cover's story — set it precisely from the COVER NOTES. Background: pure white, or a very sparse tone accent; no drawn shop interior unless the COVER NOTES ask for one. Roughly half the composition is white space. Hand-lettered series title in clean soft lettering across the top exactly as given; "CHAPTER N" and the chapter title in smaller lettering near the bottom. No panels, no speech bubbles. All other sections of the spec (FIGURE PROPORTIONS, line, eyes, hair, tone, banned) still apply — the figures are tall and slender.
+COVER OVERRIDE: This call is a chapter COVER, not a story page. Draw one full-bleed portrait composition with no panels or speech balloons. A single real barber chair sits centre-frame, full height and slightly angled. Position the two leads relative to it exactly as the COVER NOTES direct. Their distance and contact are the story. Keep the background mostly white with at most one sparse tone or ink accent. Hand-letter the series title exactly as supplied at the top, and `CHAPTER N` plus the chapter title near the bottom. Preserve the ANTI-AI INK LAW: varied line weight, simplified chrome, no glossy product rendering, no mannequin symmetry, no copied design.
