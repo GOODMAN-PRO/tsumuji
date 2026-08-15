@@ -64,14 +64,35 @@ TONE — USE IT VERY SPARINGLY:
 CHIBI:
 - Panels tagged [CHIBI] in the script draw the characters as tiny simplified versions: oversized round head, dot or line eyes, no nose, simplified body, simplified hair silhouette that still matches their lock. Chibi panels land mid-conversation as small comedy beats and keep their bubbles. (Chibi is the ONE exemption from the proportions law.)
 
-LETTERING:
-- Speech bubbles: white ovals with a thin black outline; tail points at the speaker. Text is horizontal UPPERCASE English, centered, broken into short stacked lines of 1-4 words; hyphenate rather than shrink. Text must be large and cleanly legible.
-- Thought bubbles: cloud-scalloped edge. Shouts: spiky-burst bubble, or big freehand letters with speed lines behind.
-- Muttered asides: tiny bubble-less text floating right beside the character's head, sometimes in a small dashed bubble. Render every aside in the script.
+LETTERING — **BUBBLE SHAPE AND TEXT SIZE CARRY THE EMOTION. THIS IS AS IMPORTANT AS THE DRAWING.**
+
+**THE ENFORCEMENT RULE: a page where every bubble is the same shape, the same size, and the same weight is a FAILED PAGE.** Real manga lettering is loud in places and almost invisible in others, and the reader hears volume from the shape alone before reading a word. Vary it on every single page.
+
+The vocabulary — pick the form from the FEELING, not from habit:
+- **Normal speech** → clean oval or rounded bubble, thin outline, medium text.
+- **SHOUTING / urgency / alarm** → **SPIKY BURST bubble** with jagged points, and the text inside is **MUCH BIGGER AND BOLDER** — two or three times the size of calm dialogue, often stacked in short thick lines. A shout must be legible as a shout with the page held at arm's length.
+- **Flat, formal, deadpan, or stating a fact** → a **RECTANGULAR / squared-off bubble** with corners. (This is Tōma's public register bubble — use it.)
+- **Muttering, half-heard, embarrassed, trailing off** → **NO OUTLINE AT ALL**: small text floating bare beside the head; or a **small broken/dashed outline**. Tiny text. This is the series' most-used quiet form.
+- **Thoughts** → cloud-scalloped edge, softer text.
+- **Interrupted or cut off** → a bubble with one edge left open or ragged.
+- **Whisper / weak voice** → thin wobbly outline, small light text.
+- **TAILS vary**: a long whipping tail thrown across the panel for a shout from off-panel; a tiny nub for a quiet line; no tail at all when the speaker is obvious.
+- **Bold individual words** inside a bubble for stress. Not every word — one or two.
+- Bubbles **overlap panel borders and each other**; a bubble may sit half outside its panel. That is correct manga texture, not a mistake.
+- Text is horizontal UPPERCASE English, centred, broken into short stacked lines of 1-4 words; hyphenate rather than shrink.
 - Captions: small rectangular boxes, upper corner of a panel, uppercase.
 
-SFX:
-- Sound effects are DRAWN as hand-lettered romaji in a clean expressive style, integrated into the artwork, with a tiny English translation in parentheses tucked under or beside them — e.g. JOKI (snip), GARA (rattle), KACHA (clink). Size matches loudness: whispers small, crashes huge. This series' SFX are small and domestic more often than large.
+EXPRESSION, REACTION AND CARTOONING — the page must have COMIC LIFE in it:
+- **Emotion marks are expected, not optional**: a large drawn **"?!"** or **"!?"** as its own graphic in a panel; sweat drops beside the temple; a popped anger cross-vein; blush as short diagonal hatch strokes; puffs of breath; small motion ticks beside a moving hand.
+- **REACTION FACES**: when a character is startled, mortified, exasperated or caught out, drop that panel to a **SIMPLIFIED CARTOON FACE** — dot or line eyes, a huge open mouth, simplified hair shape — even inside an otherwise quiet scene. Snapping between a delicate face and a cartoon face is the register of this genre.
+- **SPEED LINES and focus lines** behind sudden movement or a shock beat. A dark toned panel with radiating focus lines is legal for one dramatic beat.
+- **Characters may break the panel border** — a hand, a shoulder, a lock of hair, a scissor blade crossing the gutter into the next panel.
+- These devices are seasoning in a quiet series: use several per page, but let the calm panels stay calm.
+
+SFX — DRAWN, NOT TYPED:
+- Sound effects are **hand-lettered romaji drawn INTO the artwork**, with a tiny English translation in parentheses tucked under or beside them — e.g. JOKI (snip), GARA (rattle), KACHA (clink).
+- **Vary them wildly in size and treatment.** At least one SFX per page should be LARGE — a major graphic element that **overlaps figures and crosses panel borders**. Others are small and tucked in a corner. Rough scratchy letterforms for harsh sounds; soft rounded letterforms for gentle ones; long trailing letters for continuous sounds.
+- Small domestic sounds are this series' staple, but they still get real hand-lettered presence — never a neat typeset label sitting politely in a corner.
 - **NEVER print the script's markup.** The letters "SFX", a colon, and quotation marks must NEVER appear on the page. The script line `- SFX: SHAKI (snip)` is lettered on the page as **SHAKI (snip)** and nothing else. The same applies to every other script prefix — CAPTION, PANEL, and character-name labels are instructions to you, never text to draw.
 
 SIGNAGE LAW — NEVER INVENT LETTERING:
@@ -82,6 +103,8 @@ BANNED — never do any of these:
 - STUBBY, squat, stocky, wide-shouldered or short-limbed figures. See FIGURE PROPORTIONS.
 - **OVER-RENDERING — the primary failure mode of this series.** No crosshatching. No stippling. No texture on wood, floorboards, brick, tile, concrete, fabric weave, or hair beyond simple strand lines. No rendered drapery or heavy fold work. No detailed noses, nostrils, lips, cheekbones, or jaw shading. No gritty or photorealistic "seinen drama" finish. If the page looks laborious, it is wrong.
 - **BUSY BACKGROUNDS.** More than one drawn environment panel per page, or any toned/textured background, is a defect.
+- **UNIFORM LETTERING.** Every bubble the same oval, the same size, the same weight — no shouts, no unbubbled mutters, no size contrast. This is a defect and the page must be redrawn. See LETTERING.
+- **DEAD PAGES.** No emotion marks, no reaction faces, no varied SFX, nothing crossing a panel border. The page must have comic life in it.
 - Photorealism, painterly rendering, soft airbrushed grayscale, 3D-render look, AI-gloss.
 - Digital-painting or anime-keyframe rendering: gradient-shaded skin or hair, glossy highlights, rendered lighting, smooth gray shading anywhere.
 - Heavy, dark, tone-saturated pages. This series is light; large white areas are mandatory.
