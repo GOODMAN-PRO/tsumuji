@@ -5,5 +5,14 @@
     "tagline": "There's one part of you that you will never see. She sees it every three weeks.",
     "author": ""
   },
-  "chapters": []
+  "chapters": [
+    {
+      "n": 1,
+      "slug": "ch01",
+      "title": "IN PENCIL",
+      "pages": 27,
+      "cover": "chapters/ch01/cover.jpg",
+      "published": "2026-08-15"
+    }
+  ]
 }
