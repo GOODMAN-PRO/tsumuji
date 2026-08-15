@@ -186,3 +186,42 @@ are someone else.
 - The leads never misunderstand each other for longer than one page. External misreadings are
   legal; between those two there is only the unsaid, never the mistaken.
 - No character is humiliated for a laugh. Nobody is the butt.
+
+---
+
+## SHOWRUNNER RULINGS (post-bible review — canon, binding on every writer)
+
+- **Sub-four-word bubbles are legal in exactly two forms:** the signature line **"HOW SHORT?"**,
+  and pure reaction beats, capped at 2 per page. Everything else obeys 4-8 words. The line is
+  the series' heartbeat; it does not get padded.
+- **Nagi's mother:** alive, remarried, two prefectures away, texts about the weather, on good
+  terms with everyone. She is NEVER a plot point, never a wound, never a lever. Confirmed so
+  that no writer invents her badly.
+- **DOKI-type heartbeat SFX: capped at 3 in the series, ZERO scheduled.** No writer may spend
+  one without an explicit showrunner instruction in that cycle's brief. The default substitute
+  is the held silent beat panel.
+- **The one acknowledged aside in the whole series fires at CH50** — someone answers an aside
+  they were not meant to hear, on the chapter where the leaving is decided. Nowhere else, ever.
+- **The one out-of-shop "HOW SHORT?" fires at CH44**, when she commits to the licence — the
+  first time she is a barber out in the world instead of only in that room. (Ch55's "how
+  short?" is asked by someone else, per motif 6, and is a different beat.)
+- **The towel reversal fires at ~CH35:** he wraps the hot towel for her. Once, never repeated.
+- **The cracked pole** is fixed by Hagiwara at ~CH47; its SFX permanently loses its stutter
+  from that chapter on, and nobody remarks on it.
+- **Tōma reverts to "Komori-san"** whenever he is about to raise leaving — approved as a
+  standing tell, unexplained forever.
+- **Nagi's single pre-16 slip** ("Tōma", once) lands at **CH14**, mid-chore, unremarked.
+- **NAMES: `cast.md` is the single authority.** The two bibles were written in parallel and
+  arc.md has been reconciled to cast.md. Canonical ensemble: father **KOMORI TAKAFUMI** (48);
+  grandmother **KOMORI YAEKO / "Yae"** (74, alive at ch55); classmate **NUNOKAWA KOHARU**;
+  Tōma's friend **YAGISAWA GAKU**; oldest regular **HAGIWARA KIYOSHI** (79, retired watch
+  repairer, 41 years in chair one); poster girl **MOMOSE RURIKA**; Tōma's parents **NARUSE
+  TSUTOMU** and **NARUSE AKIE**. No writer may introduce a variant spelling or a new name for
+  an existing role.
+- **CH55 FINAL PAGE (locked):** both chairs full and the shop open — **YAEKO in the second
+  chair with NAGI behind it** (the locked final image: the chair empty for 54 chapters is
+  finally occupied by the woman it belongs to), Takafumi at chair one with Tōma in it, and the
+  series' last line is **Takafumi asking Tōma "HOW SHORT?"** — motif 6 paid by someone else.
+- **Nagi's mother** is confirmed exactly as `cast.md` has her: alive, remarried, elsewhere,
+  texts about the weather, never a plot point. arc.md's silence about her is correct; she is
+  simply not a story engine.
