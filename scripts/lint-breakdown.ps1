@@ -19,7 +19,7 @@ $cur = 0
 foreach ($line in $lines) {
     if ($line -match '^##\s+PAGE\s+(\d+)\s*(?:[-—–]+\s*SPLASH)?\s*$') {
         $cur = [int]$Matches[1]
-        $pages[$cur] = @{ splash = ($line -match 'SPLASH'); panels = 0; bubbles = 0; longBubbles = 0; chibi = 0 }
+        $pages[$cur] = @{ splash = ($line -match 'SPLASH'); panels = 0; bubbles = 0; asides = 0; sfx = 0; captions = 0; longBubbles = 0; chibi = 0 }
         continue
     }
     if ($line -match '^##\s') { $cur = 0; continue }   # COVER NOTES / CONTINUITY NOTES etc.
@@ -34,6 +34,9 @@ foreach ($line in $lines) {
         $w = ($Matches[1] -split '\s+') | Where-Object { $_ }
         if ($w.Count -gt 8) { $p.longBubbles++ }
     }
+    elseif ($line -match '^\s*-\s*\([^)]+,\s*aside\)\s*:') { $p.asides++ }
+    elseif ($line -match '^\s*-\s*SFX\s*:') { $p.sfx++ }
+    elseif ($line -match '^\s*-\s*CAPTION\s*:') { $p.captions++ }
 }
 
 $nums = $pages.Keys | Sort-Object
@@ -51,10 +54,12 @@ foreach ($n in $nums) {
     $p = $pages[$n]; $id = 'p{0:d2}' -f $n
     if ($p.splash) {
         if ($p.panels -ne 1) { $violations += "$id (splash): $($p.panels) panels — splash is a single panel" }
-        if ($p.bubbles -lt 3 -or $p.bubbles -gt 6) { $violations += "$id (splash): $($p.bubbles) bubbles — splash carries 3-6" }
+        if ($p.bubbles -lt 4 -or $p.bubbles -gt 7) { $violations += "$id (splash): $($p.bubbles) bubbles — splash carries 4-7" }
     } else {
-        if ($p.panels -lt 5 -or $p.panels -gt 7) { $violations += "$id`: $($p.panels) panels — must be 5-7 (default 6)" }
-        if ($p.bubbles -lt 7 -or $p.bubbles -gt 13) { $violations += "$id`: $($p.bubbles) bubbles — must be 7-13 (default 9-11)" }
+        if ($p.panels -lt 5 -or $p.panels -gt 9) { $violations += "$id`: $($p.panels) panels — must be 5-9 (default 7)" }
+        if ($p.bubbles -lt 11 -or $p.bubbles -gt 15) { $violations += "$id`: $($p.bubbles) bubbles — must be 11-15 (default 12-14)" }
+        $textBeats = $p.bubbles + $p.asides + $p.sfx + $p.captions
+        if ($textBeats -lt 16) { $violations += "$id`: $textBeats total text beats — need at least 16 (bubbles + asides + SFX + captions)" }
     }
     if ($p.bubbles -eq 0) { $violations += "$id`: ZERO bubbles — there are no silent pages" }
     if ($p.longBubbles -gt 0) { $violations += "$id`: $($p.longBubbles) bubble(s) over 8 words — split into a bubble chain" }

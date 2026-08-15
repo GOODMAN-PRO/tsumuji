@@ -24,6 +24,11 @@ then deliver the file. You never invent story: do not add, remove, reorder, or r
 panels, dialogue, or SFX - the PAGE SCRIPT below is final. Your craft is executing it
 with the ART SPEC's rules.
 
+Before generating, COUNT the PAGE SCRIPT's panels, speech/thought balloons, asides,
+captions, and SFX and make a balloon map in reading order. After generating, inspect the
+finished page and count again. If even one scripted text beat is missing, merged, or
+illegible, retry once before delivery. Dense lettering is part of the drawing.
+
 DELIVERY:
 - Generate at size 1024x1536 (portrait).
 - Copy the final PNG to exactly: {ABS_RAW_PATH}   (create directories if needed)
@@ -62,11 +67,20 @@ foreach ($m in $pageMatches) {
     $id = 'p{0:d2}' -f $n
     $target = Join-Path $prodDir "raw\$id.png"
     $header = ($m.Value -split "`r?`n")[0]   # keeps the SPLASH marker visible to the artist
+    $pageBody = $m.Groups[2].Value.Trim()
+    $panelCount = ([regex]::Matches($pageBody, '(?m)^PANEL\s+\d+')).Count
+    $bubbleCount = ([regex]::Matches($pageBody, '(?m)^-\s*\([^)]+?(?:,\s*thought)?\)\s*:\s*"') | Where-Object { $_.Value -notmatch ',\s*aside\)' }).Count
+    $asideCount = ([regex]::Matches($pageBody, '(?m)^-\s*\([^)]+,\s*aside\)\s*:')).Count
+    $sfxCount = ([regex]::Matches($pageBody, '(?m)^-\s*SFX\s*:')).Count
+    $captionCount = ([regex]::Matches($pageBody, '(?m)^-\s*CAPTION\s*:')).Count
+    $totalText = $bubbleCount + $asideCount + $sfxCount + $captionCount
+    $countLock = "COUNT LOCK — deliver exactly $panelCount panels, $bubbleCount speech/thought balloons, $asideCount unbubbled asides, $captionCount caption boxes, and $sfxCount drawn SFX ($totalText readable text beats total). Do not merge or omit any."
     $body = @(
         ($preamble -replace '\{ABS_RAW_PATH\}', $target)
         $spec
         "CHARACTER LOCKS — draw these characters EXACTLY as specified, every panel:`n$locks"
-        "PAGE SCRIPT — render exactly this, panel by panel, every bubble:`n$header`n$($m.Groups[2].Value.Trim())"
+        $countLock
+        "PAGE SCRIPT — render exactly this, panel by panel, every bubble:`n$header`n$pageBody"
     )
     $out = Join-Path $prodDir "prompts\$id.txt"
     [IO.File]::WriteAllText($out, ($body -join "`n`n"), [Text.UTF8Encoding]::new($false))

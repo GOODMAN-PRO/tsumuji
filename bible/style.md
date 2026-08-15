@@ -8,23 +8,23 @@ wrong, not the rule.
 
 ## 0. BUBBLE DISCIPLINE
 
-- **4-8 words per bubble. HARD.** No bubble in fifty-five chapters exceeds eight words.
-- **7-13 speech/thought bubbles per page. Default 9-11.** Splash pages: 3-6.
-- **Maximum 3 bubbles in any one panel.**
-- **Density comes from COUNT, never from LENGTH.** Six quick lines across four small panels is
+- **2-8 words per bubble; eight is the HARD ceiling.** Most bubbles are 3-6 words. One-word reactions are timing marks, never speeches.
+- **11-15 speech/thought bubbles per page. Default 12-14.** Splash pages: 4-7.
+- **Maximum 4 bubbles in any one panel.** Four is reserved for a rapid interruption chain.
+- **Density comes from COUNT, never from LENGTH.** Eight quick lines across four small panels is
   the texture. A long speech is a bubble chain, never a paragraph in an oval.
 - **No monologue over 4 bubbles**, ever, from anyone, including thought bubbles.
 
-### The two sanctioned sub-floor forms
+### The short-beat forms
 
-The four-word floor is a floor on *substance*, and exactly two things sit under it:
+Sub-four-word bubbles are manga timing, and only two classes use them:
 
 1. **"How short?"** — the series' signature line. Two words, its own bubble, never padded, never
    ironic, never combined with anything else in the same oval.
-2. **Pure reaction beats** — "Mm.", "Yeah.", "No.", "Ah." — **maximum two per page.** They count
+2. **Pure reaction beats** — "Mm.", "Yeah.", "No.", "Ah.", "Wait." — **maximum three per page.** They count
    toward the page's bubble total and they never carry the point of a panel.
 
-Everything else is four to eight words.
+Everything else is usually three to eight words; two-word interruptions are allowed when the cut needs them.
 
 ### THE LAW: NOBODY EXPLAINS THEIR FEELINGS
 
@@ -111,7 +111,7 @@ device, not a background, and it has rules:
 aside and no SFX.** Nothing. It is a full stop drawn as a rectangle.
 
 - **1-3 beat panels per chapter.** Never two in a row. Never on page 1.
-- The page containing one still carries its normal 7-13 bubbles from other panels.
+- The page containing one still carries its normal 11-15 bubbles from other panels.
   **THERE ARE NO SILENT PAGES. A beat is a panel, never a page.**
 - A beat panel's content is always **one** of: hands, the two of them in the mirror, the crown of
   a head, the floor and its flecks, the second chair.
@@ -241,7 +241,7 @@ than they are large.
 
 > **THE SUBSTITUTE, AND IT IS THE HOUSE PREFERENCE:** where a heartbeat would go, use a **held
 > silent beat panel** — `PANEL k [size] [BEAT]` — no bubble, no aside, no SFX, nothing. The page
-> keeps its 7-13 bubbles elsewhere. A drawn silence beats a drawn heartbeat every single time,
+> keeps its 11-15 bubbles elsewhere. A drawn silence beats a drawn heartbeat every single time,
 > and this series has fifty-five chapters to prove it.
 
 ---
@@ -351,7 +351,7 @@ maximum. Always true. Never acknowledged.**
 
 ### TWO CLASSES — read this before counting anything
 
-The engine budgets **2-4 asides per page**. That budget is filled by **working mutters**, not by
+The engine budgets **3-5 asides per page**. That budget is filled by **working mutters**, not by
 the loaded kind. They are different instruments:
 
 - **WORKING MUTTERS — uncapped.** Counting, correcting, reading the till, cursing the pole,
