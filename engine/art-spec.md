@@ -71,7 +71,8 @@ LETTERING:
 - Captions: small rectangular boxes, upper corner of a panel, uppercase.
 
 SFX:
-- Sound effects are hand-lettered romaji in a clean expressive style, with a tiny English translation in parentheses tucked under or beside them — exactly as written in the script, e.g. JOKI (snip), GARA (rattle), KACHA (clink). Size matches loudness: whispers small, crashes huge. This series' SFX are small and domestic more often than large.
+- Sound effects are DRAWN as hand-lettered romaji in a clean expressive style, integrated into the artwork, with a tiny English translation in parentheses tucked under or beside them — e.g. JOKI (snip), GARA (rattle), KACHA (clink). Size matches loudness: whispers small, crashes huge. This series' SFX are small and domestic more often than large.
+- **NEVER print the script's markup.** The letters "SFX", a colon, and quotation marks must NEVER appear on the page. The script line `- SFX: SHAKI (snip)` is lettered on the page as **SHAKI (snip)** and nothing else. The same applies to every other script prefix — CAPTION, PANEL, and character-name labels are instructions to you, never text to draw.
 
 SIGNAGE LAW — NEVER INVENT LETTERING:
 - Any sign, poster, shopfront, notice, packet, book, phone screen or printed page may ONLY carry text the PAGE SCRIPT explicitly supplies. If the script gives no wording, draw the object with its lettering illegible — turned away, blurred, edge-on, or cropped — never a name you made up.
